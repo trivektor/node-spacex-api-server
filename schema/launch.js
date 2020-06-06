@@ -1,0 +1,11 @@
+const Launch = `
+  type Launch {
+    mission_name: String
+    details: String
+    flight_number: String
+    launch_date_unix: Int!
+    launch_year: String
+  }
+`;
+
+module.exports = Launch;
