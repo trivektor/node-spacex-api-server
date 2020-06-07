@@ -5,6 +5,7 @@ const Launch = `
     flight_number: String
     launch_date_unix: Int!
     launch_year: String
+    rocket: Rocket
   }
 `;
 
